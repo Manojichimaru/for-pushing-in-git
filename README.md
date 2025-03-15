@@ -49,22 +49,12 @@ This design separates concerns:
 
 ### Running the Dashboard
 
-1. Start ROS:
-   ```bash
-   roscore
-   ```
-
-2. Start the rosbridge server:
-   ```bash
-   roslaunch rosbridge_server rosbridge_websocket.launch
-   ```
-
-3. Run the web server script:
+1. Run the web server script:
    ```bash
    python ros_camera_bridge.py
    ```
 
-4. The script will output URLs that you can share with others on your network.
+2. The script will output URLs that you can share with others on your network.
 
 ## Accessing the Dashboard
 
